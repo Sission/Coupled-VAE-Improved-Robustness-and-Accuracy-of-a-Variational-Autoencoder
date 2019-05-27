@@ -22,23 +22,30 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 </table>
 
 
+
 ### The histograms of likelihood for the input images with various k values
 
 <table align='center'>
 <tr align='center'>
 <td> k = 0 </td>
 <td> k = 0.025 </td>
-<td> k = 0.05 </td>
-<td> k = 0.1 </td>
 </tr>
 <tr>
 <td><img src = 'Results/likelihood histogram_kappa=0.png' height = '300px'>
 <td><img src = 'Results/likelihood histogram_kappa=0.025.png' height = '300px'>
+</tr>
+</table>
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0.05 </td>
+<td> k = 0.1 </td>
+</tr>
+<tr>
 <td><img src = 'Results/likelihood histogram_kappa=0.05.png' height = '300px'>
 <td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '300px'>
 </tr>
 </table>
-
 
 ## References
 [1] D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in International Conference on Learning Representations (ICLR), 2014, p. Arxiv: 1312.6114v10.pd.<br>
