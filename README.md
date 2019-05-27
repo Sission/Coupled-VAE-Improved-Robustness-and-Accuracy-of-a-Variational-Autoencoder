@@ -47,6 +47,19 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 </tr>
 </table>
 
+### The relationship between coupling k with the probabilities for input data
+
+| Coupling k | Arithmetic mean metric | Geometric mean metric |-2/3 mean metric|
+| :---: | :----: | ：----: |：----: |
+| 0 | 1.31$a^b$$10^-15$ | ccccc |：----: |
+| 0.025    | b      | c     |：----: |
+
+Coupling  Arithmetic mean metric Geometric mean metric -2/3 mean metric
+0 15 1.31 10−  39 2.41 10−  79 1.40 10− 
+0.025 15 6.61 10−  35 5.98 10−  81 9.91 10− 
+0.05 12 7.18 10−  32 5.80 10−  73 1.31 10− 
+0.1 12 1.34 10−  29 7.09 10−  71
+
 ## References
 [1] D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in International Conference on Learning Representations (ICLR), 2014, p. Arxiv: 1312.6114v10.pd.<br>
 [2]	D. Tran, M. D. Hoffman, R. A. Saurous, E. Brevdo, K. Murphy, and D. M. Blei, “Deep probabilistic programming,” pp. 1–18, 2017.,<br>
