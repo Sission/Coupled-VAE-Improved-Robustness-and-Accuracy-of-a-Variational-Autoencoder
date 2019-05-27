@@ -14,10 +14,10 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 </tr>
 <tr>
 <td><img src = 'Results/input images.png' height = '150px'>
-<td><img src = 'results/dim_z_2.jpg' height = '150px'>
-<td><img src = 'results/dim_z_5.jpg' height = '150px'>
-<td><img src = 'results/dim_z_10.jpg' height = '150px'>
-<td><img src = 'results/dim_z_20.jpg' height = '150px'>
+<td><img src = 'Results/output images-kappa=0.png' height = '150px'>
+<td><img src = 'Results/output images_kappa=0.025.png' height = '150px'>
+<td><img src = 'Results/output images_kappa=0.05.png' height = '150px'>
+<td><img src = 'Results/output images_kappa=0.1.png' height = '150px'>
 </tr>
 </table>
 
