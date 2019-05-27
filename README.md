@@ -13,7 +13,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.075 </td>
 </tr>
 <tr>
-<td><img src = 'Results/input images.png.' height = '150px'>
+<td><img src = 'Results/input_images.png.' height = '150px'>
 <td><img src = 'results/dim_z_2.jpg' height = '150px'>
 <td><img src = 'results/dim_z_5.jpg' height = '150px'>
 <td><img src = 'results/dim_z_10.jpg' height = '150px'>
