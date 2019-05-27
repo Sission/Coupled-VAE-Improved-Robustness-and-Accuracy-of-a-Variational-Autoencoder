@@ -49,7 +49,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 
 Code References:  
 [1] https://www.tensorflow.org/alpha/tutorials/generative/cvae<br>
-[5] https://github.com/hwalsuklee/tensorflow-mnist-VAE\<br>
+[2] https://github.com/hwalsuklee/tensorflow-mnist-VAE\<br>
 
 
 ## Acknowledgements
