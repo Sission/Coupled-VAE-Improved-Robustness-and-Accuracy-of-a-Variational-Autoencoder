@@ -20,7 +20,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/output images_kappa=0.1.png' height = '150px'>
 </tr>
 </table>
-<br><br>
+
 ### The histograms of likelihood for the input images with various k values
 <br>
 <table align='center'>
@@ -44,15 +44,16 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '200px' width='558px'>
 </tr>
 </table>
-<br><br>
-### The relationship between coupling  with the probabilities for input data
+
+### The relationship between coupling k with the probabilities for input data
+<br>
 | Coupling k |   Arithmetic mean metric    | Geometric mean metric |   -2/3 mean metric   |
 | :--------: | :-------------------------: | :-------------------: | :------------------: |
 |     0      | 1.31 &times; 10<sup>-15</sup> | 2.4110 &times; <sup>-39</sup>  | 1.4010 &times; <sup>-79</sup> |
 |   0.025    |    6.6110 &times; <sup>-15</sup>     | 5.9810 &times; <sup>-35</sup>  | 9.9110 &times; <sup>-81</sup> |
 |    0.05    |    7.1810 &times; <sup>-12</sup>     | 5.8010 &times; <sup>-32</sup>  | 1.3110 &times; <sup>-73</sup> |
 |    0.1     |    1.3410 &times; <sup>-12</sup>     | 7.0910 &times; <sup>-29</sup>  | 2.5710 &times; <sup>-71</sup> |
-<br><br>
+
 ### The standard deviation of latent variable samples near the three generalized mean metrics
 <br>
 <table align='center'>
@@ -76,7 +77,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/sigma near the metrics_kappa=0.1.png' height = '200px' width='558px'>
 </tr>
 </table>
-<br><br>
+
 ### The standard deviation of latent variable samples near the three generalized mean metrics (Magnified)
 <br><br
 <table align='center'>
@@ -91,7 +92,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/sigma near the metrics_kappa=0.1(magnified).png' height = '200px' width='360px'>
 </tr>
 </table>
-<br><br>
+
 ### The rose plots of the various standard deviation values in 20 dimensions. The range of standard deviation reduces as coupling k  increasing
 <br>
 <table align='center'>
@@ -108,7 +109,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/rose plot_kappa=0.1.png' height = '150px'>
 </tr>
 </table>
-<br><br>
+
 ### The histogram likelihood plots with a two-dimensional latent variable
 <br>
 <table align='center'>
@@ -132,7 +133,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/likelihood histogram_dim=2_kappa=0.075.png' height = '200px' width='558px'>
 </tr>
 </table>
-<br><br>
+
 ### The rose plots of the various standard deviation values in 2 dimensions. The range of standard deviation reduces as coupling k  increasing
 <br>
 <table align='center'>
@@ -149,7 +150,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/rose plot_dimz=2_kappa=0.075.png' height = '150px'>
 </tr>
 </table>
-<br><br>
+
 ### The plot of the latent space of VAE trained for 200 epochs on MNIST with various k values
 <br>
 <table align='center'>
@@ -166,7 +167,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/cluster plot_dimz=2_kappa=0.075.png' height = '150px'>
 </tr>
 </table>
-<br><br>
+
 ### The plot of visualization of learned data manifold for generative models with the axes to be the values of each dimension of latent variables
 <br>
 <table align='center'>
@@ -183,7 +184,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td><img src = 'Results/visualization plot_dimz=2_kappa=0.075.png' height = '150px'>
 </tr>
 </table>
-<br><br>
+
 ## References
 <br>
 [1] D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in International Conference on Learning Representations (ICLR), 2014, p. Arxiv: 1312.6114v10.pd.<br>
