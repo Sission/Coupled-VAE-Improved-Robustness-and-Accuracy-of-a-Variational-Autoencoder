@@ -9,11 +9,6 @@ The implementation is based on the projects:
 [3] https://github.com/kvfrans/variational-autoencoder  
 [4] https://github.com/altosaar/vae
 [5] https://github.com/hwalsuklee/tensorflow-mnist-VAE
-[1]	D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in International Conference on Learning Representations (ICLR), 2014, p. Arxiv: 1312.6114v10.pd.
-[2]	D. Tran, M. D. Hoffman, R. A. Saurous, E. Brevdo, K. Murphy, and D. M. Blei, “Deep probabilistic programming,” pp. 1–18, 2017.
-[3]	S. R. Bowman, L. Vilnis, O. Vinyals, A. M. Dai, R. Jozefowicz, and S. Bengio, “Generating Sentences from a Continuous Space,” Nov. 2015.
-[4]	J. Zalger, “Application of variational autoencoders for aircraft turbomachinery design.”
-[5]	H. Xu et al., “Unsupervised Anomaly Detection via Variational Auto-Encoder for Seasonal KPIs in Web Applications,” in Proceedings of the 2018 World Wide Web Conference on World Wide Web  - WWW ’18, 2018, pp. 187–196.
 [6]	K. P. Nelson and S. Umarov, “Nonlinear statistical coupling,” Phys. A Stat. Mech. its Appl., vol. 389, no. 11, pp. 2157–2163, Jun. 2010.
 [7]	K. P. Nelson, S. R. Umarov, and M. A. Kon, “On the average uncertainty for systems with nonlinear coupling,” Phys. A Stat. Mech. its Appl., vol. 468, pp. 30–43, Feb. 2017.
 [8]	K. P. Nelson, “Reduced Perplexity: A simplified perspective on assessing probabilistic forecasts,” Mar. 2016.
