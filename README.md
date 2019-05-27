@@ -30,8 +30,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.025 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_kappa=0.png' height = '300px' width='558px'>
-<td><img src = 'Results/likelihood histogram_kappa=0.025.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.png' height = '200px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.025.png' height = '200px' width='558px'>
 </tr>
 </table>
 
@@ -41,8 +41,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.1 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_kappa=0.05.png' height = '300px' width='558px'>
-<td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.05.png' height = '200px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '200px' width='558px'>
 </tr>
 </table>
 
@@ -63,8 +63,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.025 </td>
 </tr>
 <tr>
-<td><img src = 'Results/sigma near the metrics_kappa=0.png' height = '300px' width='558px'>
-<td><img src = 'Results/sigma near the metrics_kappa=0.025.png' height = '300px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.png' height = '200px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.025.png' height = '200px' width='558px'>
 </tr>
 </table>
 
@@ -74,8 +74,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.1 </td>
 </tr>
 <tr>
-<td><img src = 'Results/sigma near the metrics_kappa=0.5.png' height = '300px' width='558px'>
-<td><img src = 'Results/sigma near the metrics_kappa=0.1.png' height = '300px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.5.png' height = '200px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.1.png' height = '200px' width='558px'>
 </tr>
 </table>
 
@@ -119,8 +119,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.025 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.png' height = '300px' width='558px'>
-<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.025.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.png' height = '200px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.025.png' height = '200px' width='558px'>
 </tr>
 </table>
 
@@ -130,8 +130,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.075 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.05.png' height = '300px' width='558px'>
-<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.075.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.05.png' height = '200px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.075.png' height = '200px' width='558px'>
 </tr>
 </table>
 
