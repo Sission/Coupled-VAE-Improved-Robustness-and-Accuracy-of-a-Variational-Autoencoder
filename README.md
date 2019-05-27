@@ -22,7 +22,6 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 </table>
 
 
-
 ### The histograms of likelihood for the input images with various k values
 
 <table align='center'>
@@ -31,8 +30,8 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.025 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_kappa=0.png' height = '300px'>
-<td><img src = 'Results/likelihood histogram_kappa=0.025.png' height = '300px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.025.png' height = '300px' width='558px'>
 </tr>
 </table>
 
@@ -42,23 +41,152 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 <td> k = 0.1 </td>
 </tr>
 <tr>
-<td><img src = 'Results/likelihood histogram_kappa=0.05.png' height = '300px'>
-<td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '300px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.05.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_kappa=0.1.png' height = '300px' width='558px'>
 </tr>
 </table>
 
-### The relationship between coupling k with the probabilities for input data
 
-| Coupling k | Arithmetic mean metric | Geometric mean metric |-2/3 mean metric|
-| :----: | :----: | :----: |:----: |
-| 0 | 1.31$$10^-15$$ | ccccc |asda |
-| 0.025    | b      | c     |asas |
 
-Coupling  Arithmetic mean metric Geometric mean metric -2/3 mean metric
-0 15 1.31 10−  39 2.41 10−  79 1.40 10− 
-0.025 15 6.61 10−  35 5.98 10−  81 9.91 10− 
-0.05 12 7.18 10−  32 5.80 10−  73 1.31 10− 
-0.1 12 1.34 10−  29 7.09 10−  71
+| Coupling k |   Arithmetic mean metric    | Geometric mean metric |   -2/3 mean metric   |
+| :--------: | :-------------------------: | :-------------------: | :------------------: |
+|     0      | 1.31\times 10<sup>-15</sup> | 2.4110<sup>-39</sup>  | 1.4010<sup>-79</sup> |
+|   0.025    |    6.6110<sup>-15</sup>     | 5.9810<sup>-35</sup>  | 9.9110<sup>-81</sup> |
+|    0.05    |    7.1810<sup>-12</sup>     | 5.8010<sup>-32</sup>  | 1.3110<sup>-73</sup> |
+|    0.1     |    1.3410<sup>-12</sup>     | 7.0910<sup>-29</sup>  | 2.5710<sup>-71</sup> |
+
+### The standard deviation of latent variable samples near the three generalized mean metrics
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+</tr>
+<tr>
+<td><img src = 'Results/sigma near the metrics_kappa=0.png' height = '300px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.025.png' height = '300px' width='558px'>
+</tr>
+</table>
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0.05 </td>
+<td> k = 0.1 </td>
+</tr>
+<tr>
+<td><img src = 'Results/sigma near the metrics_kappa=0.5.png' height = '300px' width='558px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.1.png' height = '300px' width='558px'>
+</tr>
+</table>
+
+### The standard deviation of latent variable samples near the three generalized mean metrics (Magnified)
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0.025 </td>
+<td> k = 0.05 </td>
+<td> k = 0.1 </td>
+</tr>
+<tr>
+<td><img src = 'Results/sigma near the metrics_kappa=0.025(magnified).png' height = '200px' width='360px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.5(magnified).png' height = '200px' width='360px'>
+<td><img src = 'Results/sigma near the metrics_kappa=0.1(magnified).png' height = '200px' width='360px'>
+</tr>
+</table>
+
+### The rose plots of the various standard deviation values in 20 dimensions. The range of standard deviation reduces as coupling k  increasing
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+<td> k = 0.05 </td>
+<td> k = 0.1 </td>
+</tr>
+<tr>
+<td><img src = 'Results/rose plot_kappa=0.png' height = '150px' >
+<td><img src = 'Results/rose plot_kappa=0.025.png' height = '150px'>
+<td><img src = 'Results/rose plot_kappa=0.05.png' height = '150px'>
+<td><img src = 'Results/rose plot_kappa=0.1.png' height = '150px'>
+</tr>
+</table>
+
+### The histogram likelihood plots with a two-dimensional latent variable
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+</tr>
+<tr>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.025.png' height = '300px' width='558px'>
+</tr>
+</table>
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0.05 </td>
+<td> k = 0.075 </td>
+</tr>
+<tr>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.05.png' height = '300px' width='558px'>
+<td><img src = 'Results/likelihood histogram_dim=2_kappa=0.075.png' height = '300px' width='558px'>
+</tr>
+</table>
+
+### The rose plots of the various standard deviation values in 2 dimensions. The range of standard deviation reduces as coupling k  increasing
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+<td> k = 0.05 </td>
+<td> k = 0.075 </td>
+</tr>
+<tr>
+<td><img src = 'Results/rose plot_dimz=2_kappa=0.png' height = '150px'>
+<td><img src = 'Results/rose plot_dimz=2_kappa=0.025.png' height = '150px'>
+<td><img src = 'Results/rose plot_dimz=2_kappa=0.05.png' height = '150px'>
+<td><img src = 'Results/rose plot_dimz=2_kappa=0.075.png' height = '150px'>
+</tr>
+</table>
+
+### The plot of the latent space of VAE trained for 200 epochs on MNIST with various k  values
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+<td> k = 0.05 </td>
+<td> k = 0.075 </td>
+</tr>
+<tr>
+<td><img src = 'Results/cluster plot_dimz=2_kappa=0.png' height = '150px'>
+<td><img src = 'Results/cluster plot_dimz=2_kappa=0.025.png' height = '150px'>
+<td><img src = 'Results/cluster plot_dimz=2_kappa=0.05.png' height = '150px'>
+<td><img src = 'Results/cluster plot_dimz=2_kappa=0.075.png' height = '150px'>
+</tr>
+</table>
+
+
+### The plot of visualization of learned data manifold for generative models with the axes to be the values of each dimension of latent variables.
+
+<table align='center'>
+<tr align='center'>
+<td> k = 0 </td>
+<td> k = 0.025 </td>
+<td> k = 0.05 </td>
+<td> k = 0.075 </td>
+</tr>
+<tr>
+<td><img src = 'Results/visualization plot_dimz=2_kappa=0.png' height = '150px'>
+<td><img src = 'Results/visualization plot_dimz=2_kappa=0.025.png' height = '150px'>
+<td><img src = 'Results/visualization plot_dimz=2_kappa=0.05.png' height = '150px'>
+<td><img src = 'Results/visualization plot_dimz=2_kappa=0.075.png' height = '150px'>
+</tr>
+</table>
+
 
 ## References
 [1] D. P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” in International Conference on Learning Representations (ICLR), 2014, p. Arxiv: 1312.6114v10.pd.<br>
