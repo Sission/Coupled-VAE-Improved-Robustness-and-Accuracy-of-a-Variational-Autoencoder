@@ -203,13 +203,10 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 [22]	L. van der Maaten and G. Hinton, “Visualizing data using t-SNE,” J. Mach. Learn. Res., vol. 9, no. 2579–2605, p. 85, 2008.<br>
 
 
-## Code References:
+### Code References:
 
-[1] https://github.com/oduerr/dl_tutorial/tree/master/tensorflow/vae  
-[2] https://github.com/fastforwardlabs/vae-tf/tree/master  
-[3] https://github.com/kvfrans/variational-autoencoder  
-[4] https://github.com/altosaar/vae<br>
-[5] https://github.com/hwalsuklee/tensorflow-mnist-VAE\
+[1] https://github.com/tensorflow/tensorflow  
+[2] https://github.com/hwalsuklee/tensorflow-mnist-VAE
 
 ## Acknowledgements
 The results has been tested with Tensorflow r1.13.1 -Gpu-version on Windows 10.
