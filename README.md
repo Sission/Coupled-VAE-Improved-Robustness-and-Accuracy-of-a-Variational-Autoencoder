@@ -49,7 +49,7 @@ We present a coupled Variational Auto-Encoder (VAE) method that improves the acc
 | Coupling k |   Arithmetic mean metric    | Geometric mean metric |   -2/3 mean metric   |
 | :--------: | :-------------------------: | :-------------------: | :------------------: |
 |     0      | 1.31 &times; 10<sup>-15</sup> | 2.4110 &times; <sup>-39</sup>  | 1.4010 &times; <sup>-79</sup> |
-|   0.025    |    6.6110 &times; <sup>-15</sup>     | 5.9810 &times; <sup>-35</sup>  | 9.9110 &times; <sup>-81</sup> |
+|   0.025    |    6.6111 &times; <sup>-15</sup>     | 5.9810 &times; <sup>-35</sup>  | 9.9110 &times; <sup>-81</sup> |
 |    0.05    |    7.1810 &times; <sup>-12</sup>     | 5.8010 &times; <sup>-32</sup>  | 1.3110 &times; <sup>-73</sup> |
 |    0.1     |    1.3410 &times; <sup>-12</sup>     | 7.0910 &times; <sup>-29</sup>  | 2.5710 &times; <sup>-71</sup> |
 
